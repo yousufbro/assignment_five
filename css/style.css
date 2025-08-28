@@ -139,3 +139,34 @@ h1, h2, h3, h4, h5, h6 {
         font-weight: 600;
     }
 }
+#history-container {
+    margin-top: 16px;
+}
+.history-parent {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 8px;
+	padding: 15px 16px;
+	width: 100%;
+	border-radius: 8px;
+	background: #fafafa;
+}
+.history-content {
+	width: 60%;
+    p {
+        font-weight: 600;
+        font-size: 18px;
+        color: #111;
+    }
+    span {
+        font-weight: 400;
+        font-size: 18px;
+        color: #5c5c5c;
+    }
+}
+.date-time {
+    font-weight: 400;
+    font-size: 18px;
+    color: #111;
+}
