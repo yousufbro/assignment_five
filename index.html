@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Government Hotline Services</title>
+    <link rel="shortcut icon" href="assets/logo-dark.png" type="image/x-icon">
+
+    <!-- tailwind & daisyUi cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!---fontawesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-[#f5fff6]">
+    <header>
+        <div class="heading-container bg-white mlr-60 flex justify-between items-center">
+            <div class="logo flex items-center">
+                <img class="w-[50px]" src="assets/logo.png" alt="logo">
+                <h2 class="text-[#006747]">Emergency <br> Service</h2>
+            </div>
+            <div class="header-right flex items-center gap-4">
+                <div class="count-number flex items-center gap-2">
+                    <span>0</span>
+                    <img class="w-[30px]" src="assets/heart.png" alt="icon">
+                </div>
+                <div class="count-number flex items-center gap-2">
+                    <span>100</span>
+                    <img class="w-[24px]" src="assets/coin.png" alt="icon">
+                </div>
+                <button class="copy-btn">
+                    2 Copy
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-container w-full">
+            <div class="mlr-60 text-center">
+                <img class="w-[92px] inline-block" src="assets/logo-dark.png" alt="logo">
+                <h1>Directory</h1>
+                <p>Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="service">
+        <div class="service-conatiner flex gap-6">
+            <div class="service-wrap grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 xl:grid-cols-3 gap-6">
+                <div class="service-item w-[370px] md:w-[380px] lg:w-[380px] 2xl:w-[435px] h-[350px] md:h-[350px] 2xl:h-[360px] xl:h-[350px]">
+                    <div class="flex justify-between items-center">
+                        <div class="service-logo bg-[#ffe3e2]"><img class="w-[32px]" src="assets/emergency.png" alt="icon"></div>
+                        <i class="fa-regular fa-heart text-[#5c5c5c]"></i>
+                    </div>
+                    <h3>National Emergency Number</h3>
+                    <span>National Emergency</span>
+                    <h2>999</h2>
+                    <span class="catagory">All</span>
+                    <div class="service-btn-box flex flex-row gap-2">
+                        <button class="copy-btns gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
+                    </div>
+                </div>
+            </div>
+            <div class="service-history">
+                <div class="w-[352px] flex justify-between items-center">
+                    <div class="flex gap-2">
+                        <img src="assets/history.png" alt="icon">
+                        <span class="text-[#111] font-bold">Call History</span>
+                    </div>
+                    <button class="clear-btn bg-[#00a63e] text-white">Clear</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

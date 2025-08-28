@@ -1,0 +1,141 @@
+/* add fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.hind-madurai {
+    font-family: "Hind Madurai", sans-serif;
+    font-style: normal;
+}
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+:root {
+    --font-heading: "Hind Madurai", sans-serif;
+    --font-body: "Inter", sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--font-body);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+}
+.mlr-60 {
+    margin: 0 60px;
+}
+/* heading style start */
+.heading-container {
+    padding: 25px 0;
+}
+.logo {
+    h2 {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1;
+        margin-left: 10px;
+    }
+}
+.count-number {
+    padding: 12px 35px;
+    border-radius: 50px;
+    background: rgba(65, 255, 107, 0.1);
+    span {
+        font-size: 16px;
+        font-weight: 900;
+        color: #000;
+    }
+}
+.copy-btn {
+    font-size: 16px;
+    font-weight: 600;
+    background: #00a63e;
+    border-radius: 50px;
+    color: #fff;
+    padding: 14px 36px;
+    cursor: pointer;
+}
+
+/* hero style start */
+.hero-container {
+    padding: 20px 0;
+    background: linear-gradient(90deg, #013223 0%, #006747 49.99%, #013223 100%);
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+        color: #fff;
+        margin: 15px 0 5px;
+    }
+    p {
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+    }
+}
+
+/* service style start */
+.service-item {
+    background: #fff;
+    padding: 32px;
+    /* max-width: 436px; */
+    border-radius: 12px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+    h3 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #111;
+        margin-top: 12px;
+    }
+    h2 {
+        font-weight: 700;
+        font-size: 32px;
+        color: #111;
+        margin-top: 15px;
+    }
+    span {
+        font-weight: 400;
+        font-size: 18px;
+        color: #5c5c5c;
+    }
+    .catagory {
+        background: #f2f2f2;
+        border-radius: 99px;
+        padding: 8px 16px;
+    }
+}
+.service-logo {
+    padding: 14px;
+    border-radius: 16px;
+}
+.service-btn-box {
+    gap: 8px;
+    margin-top: 27px;
+    button {
+        border-radius: 8px;
+        padding: 7px 0;
+        cursor: pointer;
+        text-align: center;
+    }
+    .copy-btns {
+        border: 1px solid #d4d6d5;
+    }
+}
+.service-conatiner {
+    padding: 48px 68px;
+}
+.service-history {
+    padding: 24px;
+    width: 400px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
+    .clear-btn {
+        padding: 14px 36px;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
