@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
         color: #000;
     }
 }
-.copy-btn {
+.copy-count {
     font-size: 16px;
     font-weight: 600;
     background: #00a63e;
@@ -119,16 +119,19 @@ h1, h2, h3, h4, h5, h6 {
         cursor: pointer;
         text-align: center;
     }
-    .copy-btns {
+    .copy-btn {
         border: 1px solid #d4d6d5;
     }
 }
 .service-conatiner {
-    padding: 48px 68px;
+    padding: 48px 58px;
+}
+.service-wrap {
+    width: 77.5%;
 }
 .service-history {
     padding: 24px;
-    width: 400px;
+    width: 22.5%;
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.15);
@@ -170,3 +173,4 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 18px;
     color: #111;
 }
+

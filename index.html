@@ -29,11 +29,11 @@
                     <img class="w-[30px]" src="assets/heart.png" alt="icon">
                 </div>
                 <div class="count-number flex items-center gap-2">
-                    <span>100</span>
+                    <span id="coin">100</span>
                     <img class="w-[24px]" src="assets/coin.png" alt="icon">
                 </div>
-                <button class="copy-btn">
-                    2 Copy
+                <button class="copy-count">
+                    <span id="copy-count">0</span> Copy
                 </button>
             </div>
         </div>
@@ -57,41 +57,125 @@
                         <div class="service-logo bg-[#ffe3e2]"><img class="w-[32px]" src="assets/emergency.png" alt="icon"></div>
                         <i id="heart-button" class="heart-button fa-regular fa-heart text-[#5c5c5c]"></i>
                     </div>
-                    <h3>National Emergency Number</h3>
+                    <h3 class="service-type">National Emergency Number</h3>
                     <span>National Emergency</span>
-                    <h2>999</h2>
+                    <h2 class="hotline-number">999</h2>
                     <span class="category">All</span>
                     <div class="service-btn-box flex flex-row gap-2">
-                        <button class="copy-btns gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
-                        <button class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
+                        <button class="copy-btn gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button id="call-btn" class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
+                    </div>
+                </div>
+                <div class="service-item w-[435px]">
+                    <div class="flex justify-between items-center">
+                        <div class="service-logo bg-[#ffe3e2]"><img class="w-[32px]" src="assets/police.png" alt="icon"></div>
+                        <i id="heart-button" class="heart-button fa-regular fa-heart text-[#5c5c5c]"></i>
+                    </div>
+                    <h3 class="service-type">Police Helpline Number</h3>
+                    <span>Police</span>
+                    <h2 class="hotline-number">999</h2>
+                    <span class="category">Police</span>
+                    <div class="service-btn-box flex flex-row gap-2">
+                        <button class="copy-btn gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button id="call-btn" class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
+                    </div>
+                </div>
+                <div class="service-item w-[435px]">
+                    <div class="flex justify-between items-center">
+                        <div class="service-logo bg-[#ffe3e2]"><img class="w-[32px]" src="assets/fire-service.png" alt="icon"></div>
+                        <i id="heart-button" class="heart-button fa-regular fa-heart text-[#5c5c5c]"></i>
+                    </div>
+                    <h3 class="service-type">Fire Service Number</h3>
+                    <span>Fire Service</span>
+                    <h2 class="hotline-number">999</h2>
+                    <span class="category">Fire</span>
+                    <div class="service-btn-box flex flex-row gap-2">
+                        <button class="copy-btn gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button id="call-btn" class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
+                    </div>
+                </div>
+                <div class="service-item w-[435px]">
+                    <div class="flex justify-between items-center">
+                        <div class="service-logo bg-[#ffe3e2]"><img class="w-[32px]" src="assets/ambulance.png" alt="icon"></div>
+                        <i id="heart-button" class="heart-button fa-regular fa-heart text-[#5c5c5c]"></i>
+                    </div>
+                    <h3 class="service-type">Ambulance Service</h3>
+                    <span>Ambulance</span>
+                    <h2 class="hotline-number">1994-999999</h2>
+                    <span class="category">Health</span>
+                    <div class="service-btn-box flex flex-row gap-2">
+                        <button class="copy-btn gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button id="call-btn" class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
                     </div>
                 </div>
                 <div class="service-item w-[435px]">
                     <div class="flex justify-between items-center">
                         <div class="service-logo bg-[#ffe3e2]"><img class="w-[32px]" src="assets/emergency.png" alt="icon"></div>
-                        <i class="fa-regular fa-heart text-[#5c5c5c]"></i>
+                        <i id="heart-button" class="heart-button fa-regular fa-heart text-[#5c5c5c]"></i>
                     </div>
-                    <h3>Police Helpline Number</h3>
-                    <span>National Emergency</span>
-                    <h2>999</h2>
-                    <span class="category">All</span>
+                    <h3 class="service-type">Women & Child Helpline</h3>
+                    <span>Women & Child Helpline</span>
+                    <h2 class="hotline-number">109</h2>
+                    <span class="category">Help</span>
                     <div class="service-btn-box flex flex-row gap-2">
-                        <button class="copy-btns gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
-                        <button class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
+                        <button class="copy-btn gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button id="call-btn" class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
                     </div>
                 </div>
                 <div class="service-item w-[435px]">
                     <div class="flex justify-between items-center">
                         <div class="service-logo bg-[#ffe3e2]"><img class="w-[32px]" src="assets/emergency.png" alt="icon"></div>
-                        <i class="fa-regular fa-heart text-[#5c5c5c]"></i>
+                        <i id="heart-button" class="heart-button fa-regular fa-heart text-[#5c5c5c]"></i>
                     </div>
-                    <h3>National Emergency Number</h3>
-                    <span>National Emergency</span>
-                    <h2>999</h2>
-                    <span class="category">All</span>
+                    <h3 class="service-type">Anti-Corruption Helpline</h3>
+                    <span>Anti-Corruption</span>
+                    <h2 class="hotline-number">106</h2>
+                    <span class="category">Govt.</span>
                     <div class="service-btn-box flex flex-row gap-2">
-                        <button class="copy-btns gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
-                        <button class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
+                        <button class="copy-btn gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button id="call-btn" class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
+                    </div>
+                </div>
+                <div class="service-item w-[435px]">
+                    <div class="flex justify-between items-center">
+                        <div class="service-logo bg-[#ffe3e2]"><img class="w-[32px]" src="assets/emergency.png" alt="icon"></div>
+                        <i id="heart-button" class="heart-button fa-regular fa-heart text-[#5c5c5c]"></i>
+                    </div>
+                    <h3 class="service-type">Electricity Helpline</h3>
+                    <span>Electricity Outage</span>
+                    <h2 class="hotline-number">16216</h2>
+                    <span class="category">Electricity</span>
+                    <div class="service-btn-box flex flex-row gap-2">
+                        <button class="copy-btn gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button id="call-btn" class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
+                    </div>
+                </div>
+                <div class="service-item w-[435px]">
+                    <div class="flex justify-between items-center">
+                        <div class="service-logo bg-[#ffe3e2]"><img class="w-[32px]" src="assets/brac.png" alt="icon"></div>
+                        <i id="heart-button" class="heart-button fa-regular fa-heart text-[#5c5c5c]"></i>
+                    </div>
+                    <h3 class="service-type">Brac Helpline</h3>
+                    <span>Brac</span>
+                    <h2 class="hotline-number">16445</h2>
+                    <span class="category">NGO</span>
+                    <div class="service-btn-box flex flex-row gap-2">
+                        <button class="copy-btn gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button id="call-btn" class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
+                    </div>
+                </div>
+                <div class="service-item w-[435px]">
+                    <div class="flex justify-between items-center">
+                        <div class="service-logo bg-[#ffe3e2]"><img class="w-[32px]" src="assets/Bangladesh-Railway.png" alt="icon"></div>
+                        <i id="heart-button" class="heart-button fa-regular fa-heart text-[#5c5c5c]"></i>
+                    </div>
+                    <h3 class="service-type">Bangladesh Railway Helpline </h3>
+                    <span>Bangladesh Railway</span>
+                    <h2 class="hotline-number">163</h2>
+                    <span class="category">Travel</span>
+                    <div class="service-btn-box flex flex-row gap-2">
+                        <button class="copy-btn gap-1 text-[#5c5c5c] w-full"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button id="call-btn" class="call-btn gap-1 bg-[#00a63e] text-white w-full"><img class="inline-flex" src="assets/call.png" alt="icon"> Call</button>
                     </div>
                 </div>
             </div>
@@ -101,21 +185,11 @@
                         <img src="assets/history.png" alt="icon">
                         <span class="text-[#111] font-bold">Call History</span>
                     </div>
-                    <button class="clear-btn bg-[#00a63e] text-white">Clear</button>
+                    <button id="clear-btn" class="clear-btn bg-[#00a63e] text-white">Clear</button>
                 </div>
-
                 <div id="history-container">
-                    <div class="history-parent">
-                        <div class="history-content">
-                            <p>Fire Service Number</p>
-                            <span>999</span>
-                        </div>
-                        <div class="date-time">
-                            <p>11:36:58 AM</p>
-                        </div>
-                    </div>
+                    
                 </div>
-
             </div>
         </div>
     </section>
